@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## Initializes the cahce and sets up a way to call it
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -19,6 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## Runs a version of solve that checks if a user made cache exists and skips compution if it does
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
